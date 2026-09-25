@@ -2859,7 +2859,7 @@
         "statsOutboundUplink": true
       }
     },
-    "remarks": "\ud83c\uddea\ud83c\uddfa Gemini \u00b7 TCP",
+    "remarks": "",
     "routing": {
       "domainStrategy": "AsIs",
       "rules": [
