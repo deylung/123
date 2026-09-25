@@ -924,7 +924,7 @@
         "statsOutboundUplink": true
       }
     },
-    "remarks": "TCP",
+    "remarks": "",
     "routing": {
       "domainStrategy": "AsIs",
       "rules": [
