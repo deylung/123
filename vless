@@ -2214,7 +2214,7 @@
         "statsOutboundUplink": true
       }
     },
-    "remarks": "\ud83c\uddf8\ud83c\uddea \u0428\u0432\u0435\u0446\u0438\u044f \u00b7 TCP",
+    "remarks": "",
     "routing": {
       "domainStrategy": "AsIs",
       "rules": [
