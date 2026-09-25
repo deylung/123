@@ -770,7 +770,7 @@
                         }
                     },
                     "settings": {
-                        "address": "209.182.100.218",
+                        "address": "209.182.100.216",
                         "encryption": "none",
                         "id": "e7fbc076-6940-006e-ad4c-5273e3a0653c",
                         "level": 8,
@@ -1531,7 +1531,7 @@
                         }
                     },
                     "settings": {
-                        "address": "209.182.100.217",
+                        "address": "166.1.161.217",
                         "encryption": "none",
                         "id": "e7fbc076-6940-0082-ad4c-5273e3a0653c",
                         "level": 8,
@@ -2060,7 +2060,7 @@
                         }
                     },
                     "settings": {
-                        "address": "209.182.100.218",
+                        "address": "209.182.100.216",
                         "encryption": "none",
                         "id": "e7fbc076-6940-0096-ad4c-5273e3a0653c",
                         "level": 8,
@@ -2647,7 +2647,7 @@
                         }
                     },
                     "settings": {
-                        "address": "209.182.100.218",
+                        "address": "209.182.100.216",
                         "encryption": "none",
                         "id": "e7fbc076-6940-00aa-ad4c-5273e3a0653c",
                         "level": 8,
@@ -2676,7 +2676,7 @@
                         }
                     },
                     "settings": {
-                        "address": "209.182.100.216",
+                        "address": "13.143.137.161",
                         "encryption": "none",
                         "id": "e7fbc076-6940-00aa-ad4c-5273e3a0653c",
                         "level": 8,
@@ -2705,7 +2705,7 @@
                         }
                     },
                     "settings": {
-                        "address": "13.143.137.161",
+                        "address": "209.182.100.215",
                         "encryption": "none",
                         "id": "e7fbc076-6940-00aa-ad4c-5273e3a0653c",
                         "level": 8,
@@ -2734,7 +2734,7 @@
                         }
                     },
                     "settings": {
-                        "address": "217.25.93.215",
+                        "address": "92.53.119.73",
                         "encryption": "none",
                         "id": "e7fbc076-6940-00aa-ad4c-5273e3a0653c",
                         "level": 8,
@@ -2763,7 +2763,7 @@
                         }
                     },
                     "settings": {
-                        "address": "188.225.27.178",
+                        "address": "217.25.93.215",
                         "encryption": "none",
                         "id": "e7fbc076-6940-00aa-ad4c-5273e3a0653c",
                         "level": 8,
@@ -2792,7 +2792,7 @@
                         }
                     },
                     "settings": {
-                        "address": "166.1.161.217",
+                        "address": "188.225.27.178",
                         "encryption": "none",
                         "id": "e7fbc076-6940-00aa-ad4c-5273e3a0653c",
                         "level": 8,
@@ -2821,7 +2821,7 @@
                         }
                     },
                     "settings": {
-                        "address": "13.143.137.100",
+                        "address": "166.1.161.217",
                         "encryption": "none",
                         "id": "e7fbc076-6940-00aa-ad4c-5273e3a0653c",
                         "level": 8,
