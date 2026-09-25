@@ -924,7 +924,7 @@
         "statsOutboundUplink": true
       }
     },
-    "remarks": "\u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f \u00b7 TCP",
+    "remarks": "TCP",
     "routing": {
       "domainStrategy": "AsIs",
       "rules": [
