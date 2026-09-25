@@ -1,8 +1,3227 @@
-#profile-title: base64:8J+Ht/Cfh7ogdmxlc3Nib3QuY29t
-#support-url: https://t.me/suppvless
-#profile-web-page-url: https://t.me/vless_vpn_shop_bot
-#announce-url: https://t.me/vless_vpn_shop_bot?start
-#profile-update-interval: 1
-
-vless://17c4e377-ea15-07d0-98b2-3e348c9ff5d9@37.139.33.223:52006?encryption=none&flow=xtls-rprx-vision&security=reality&sni=max.ru&fp=chrome&pbk=4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik&sid=d8c6b58bcbb0c323&packetEncoding=xudp#%F0%9F%87%B7%F0%9F%87%BA[openproxylist.com]%20vless-RU
-vless://ccdf58c8-b9d4-4bc7-a55e-e6965cc71fc7@51.250.43.209:8080?encryption=none&security=reality&sni=max.ru&fp=chrome&pbk=w28tNIWZCfW4X9aQDLwXECK3pU59zihJ0GIMA13u5X8&sid&packetEncoding=xudp#%F0%9F%87%AB%F0%9F%87%B7[openproxylist.com]%20vless-FR
+[
+  {
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "tag": "ru-best_eu-1",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "209.182.100.215",
+          "encryption": "none",
+          "id": "e7fbc076-6940-48b9-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-best_eu-2",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "209.182.100.218",
+          "encryption": "none",
+          "id": "e7fbc076-6940-48b9-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-best_eu-3",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "13.143.137.161",
+          "encryption": "none",
+          "id": "e7fbc076-6940-48b9-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-best_eu-4",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "217.25.93.215",
+          "encryption": "none",
+          "id": "e7fbc076-6940-48b9-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-best_eu-5",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "188.225.27.178",
+          "encryption": "none",
+          "id": "e7fbc076-6940-48b9-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-best_eu-6",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "13.143.137.100",
+          "encryption": "none",
+          "id": "e7fbc076-6940-48b9-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-best_eu-7",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "92.53.119.73",
+          "encryption": "none",
+          "id": "e7fbc076-6940-48b9-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "AsIs",
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": "\u26a1 \u0421\u0430\u043c\u044b\u0439 \u0431\u044b\u0441\u0442\u0440\u044b\u0439 EU \u00b7 TCP",
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "domain:sub.suponap.com",
+            "domain:yandex.ru",
+            "domain:ya.ru",
+            "domain:yandex.net",
+            "domain:yastatic.net",
+            "domain:vk.com",
+            "domain:vk.ru",
+            "domain:userapi.com",
+            "domain:mail.ru",
+            "domain:ozon.ru",
+            "domain:ozone.ru",
+            "domain:o3.ru",
+            "domain:wildberries.ru",
+            "domain:wb.ru",
+            "domain:wbbasket.ru",
+            "domain:gosuslugi.ru",
+            "domain:max.ru",
+            "domain:oneme.ru",
+            "domain:api.oneme.ru",
+            "domain:api2.oneme.ru",
+            "domain:ws-api.oneme.ru",
+            "domain:platform-api2.max.ru",
+            "domain:okcdn.ru",
+            "domain:calls.okcdn.ru",
+            "domain:iv.okcdn.ru",
+            "domain:im.vk.me",
+            "domain:static.vk.me",
+            "domain:2ip.ru",
+            "domain:ok.me",
+            "domain:mvk.com",
+            "domain:vk.cc",
+            "domain:vk.design",
+            "domain:vk.link",
+            "domain:vkontakte.com",
+            "domain:cdn-vk.net",
+            "domain:vk-cdn.me",
+            "domain:vk-cdn.net",
+            "domain:vk-portal.net",
+            "domain:vkcache.com",
+            "domain:vkcdnservice.com",
+            "domain:vkuser.net",
+            "domain:vkuseraudio.com",
+            "domain:vkuseraudio.net",
+            "domain:vkuserlive.com",
+            "domain:vkuserlive.net",
+            "domain:vkuservideo.com",
+            "domain:vkuservideo.net",
+            "domain:vk.me",
+            "domain:vkmessenger.app",
+            "domain:vkmessenger.com",
+            "domain:vkpay.com",
+            "domain:vkpay.io",
+            "domain:armgs.team",
+            "domain:boosty.to",
+            "domain:donationalerts.com",
+            "domain:lovina.app",
+            "domain:memealerts.com",
+            "domain:movika.com",
+            "domain:tamtam.chat",
+            "domain:vk-apps.com",
+            "domain:vk.company",
+            "domain:vk.team",
+            "domain:vkclips.app",
+            "domain:vkcs.cloud",
+            "domain:vkgo.app",
+            "domain:vklive.app",
+            "domain:yclients.com",
+            "domain:myadx.net",
+            "domain:mytrk.link",
+            "domain:attachmy.com",
+            "domain:bizmrg.com",
+            "domain:datacloudmy.com",
+            "domain:mpgw-my.com",
+            "domain:mradx.net",
+            "domain:mycdn.me",
+            "domain:mytopf.com",
+            "domain:smailru.net",
+            "domain:staticmy.com",
+            "domain:vmailru.net",
+            "domain:dev-my.com",
+            "domain:my.com",
+            "domain:dev-my.games",
+            "domain:it-territory.com",
+            "domain:knightspeak.com",
+            "domain:my.games",
+            "domain:pixonic.com",
+            "domain:prod-my.games",
+            "domain:tarantool.io",
+            "domain:dahlmessenger.com",
+            "domain:telega.info",
+            "domain:telega.me",
+            "domain:viqeo.tv",
+            "domain:viqeotv.com",
+            "domain:vkplay.live",
+            "domain:youla.io",
+            "domain:meteum.ai",
+            "domain:shedevrum.ai",
+            "domain:sourcecraft.dev",
+            "domain:turbopages.org",
+            "domain:ya.cc",
+            "domain:yandex-bank.net",
+            "domain:yandex.aero",
+            "domain:yandex.asia",
+            "domain:yandex.az",
+            "domain:yandex.by",
+            "domain:yandex.cloud",
+            "domain:yandex.co.il",
+            "domain:yandex.com",
+            "domain:yandex.com.am",
+            "domain:yandex.com.ge",
+            "domain:yandex.com.tr",
+            "domain:yandex.com.ua",
+            "domain:yandex.de",
+            "domain:yandex.ee",
+            "domain:yandex.eu",
+            "domain:yandex.fi",
+            "domain:yandex.fr",
+            "domain:yandex.jobs",
+            "domain:yandex.kg",
+            "domain:yandex.kz",
+            "domain:yandex.lt",
+            "domain:yandex.lv",
+            "domain:yandex.md",
+            "domain:yandex.mobi",
+            "domain:yandex.org",
+            "domain:yandex.pl",
+            "domain:yandex.st",
+            "domain:yandex.sx",
+            "domain:yandex.tj",
+            "domain:yandex.tm",
+            "domain:yandex.tr",
+            "domain:yandex.ua",
+            "domain:yandex.uz",
+            "domain:yandexadexchange.net",
+            "domain:yandexcloud.net",
+            "domain:yandexcom.net",
+            "domain:yandexgo.com",
+            "domain:yandexwebcache.net",
+            "domain:yandexwebcache.org",
+            "domain:yango-b2b.com",
+            "domain:yango-team.com",
+            "domain:yango-tech.com",
+            "domain:yango.africa",
+            "domain:yango.ao",
+            "domain:yango.bh",
+            "domain:yango.co.il",
+            "domain:yango.com",
+            "domain:yango.fi",
+            "domain:yango.qa",
+            "domain:yango.taxi",
+            "domain:yango.tech",
+            "domain:yangofellowship.com",
+            "domain:yastat.net",
+            "domain:ads.yandex",
+            "domain:webvisor.com",
+            "domain:webvisor.org",
+            "domain:yads.tech",
+            "domain:yango-ads.com",
+            "domain:ozon.by",
+            "domain:ozon.com",
+            "domain:ozon.com.by",
+            "domain:ozon.com.kz",
+            "domain:ozon.dev",
+            "domain:ozon.express",
+            "domain:ozon.kz",
+            "domain:ozon.li",
+            "domain:ozon.tech",
+            "domain:ozon.tm",
+            "domain:ozon.travel",
+            "domain:ozoncamp.pro",
+            "domain:ozoncom.by",
+            "domain:ozonglobalevents.com",
+            "domain:ozonpartners.by",
+            "domain:ozonrocet.by",
+            "domain:ozonroket.by",
+            "domain:ozonru.co.il",
+            "domain:ozonru.com",
+            "domain:ozonru.eu",
+            "domain:ozonru.me",
+            "domain:ozonusercontent.com",
+            "domain:rocketozon.by",
+            "domain:paywb.com",
+            "domain:rwbautomation.tech",
+            "domain:warehouse.domains",
+            "domain:wb.am",
+            "domain:wb.kg",
+            "domain:wb.kz",
+            "domain:wbautomation.tech",
+            "domain:wbr.by",
+            "domain:wbstatic.net",
+            "domain:wbwh.tech",
+            "domain:wibes.com",
+            "domain:wildberries.am",
+            "domain:wildberries.by",
+            "domain:wildberries.co.il",
+            "domain:wildberries.es",
+            "domain:wildberries.eu",
+            "domain:wildberries.ge",
+            "domain:wildberries.kg",
+            "domain:wildberries.kz",
+            "domain:wildberries.lt",
+            "domain:wildberries.tj",
+            "domain:wildberries.tm",
+            "domain:wildberries.uz",
+            "domain:cdnvideohub.com",
+            "domain:trbcdn.net",
+            "domain:kinorium.com",
+            "domain:kinopoisk-ru.clstorage.net",
+            "domain:okko.sport",
+            "domain:okko.tv",
+            "domain:restream-media.net",
+            "domain:24h.tv",
+            "domain:beeline.tv",
+            "domain:premier.one",
+            "domain:smotreshka.tv",
+            "domain:emias.info",
+            "domain:medsi.com",
+            "domain:dodois.com",
+            "domain:dodois.io",
+            "domain:dodopizza.com",
+            "domain:dodostatic.net",
+            "domain:evrasia.rest",
+            "domain:fix-price.com",
+            "domain:lenta.com",
+            "domain:lenta.tech",
+            "domain:5post.market",
+            "domain:chizhik.club",
+            "domain:okolo.app",
+            "domain:perekrestok.com",
+            "domain:x5.ai",
+            "domain:x5.com",
+            "domain:x5.digital",
+            "domain:x5.group",
+            "domain:x5.media",
+            "domain:x5.team",
+            "domain:x5.tech",
+            "domain:x5static.net",
+            "domain:aviasales.com",
+            "domain:mosmetro.tech",
+            "domain:hh.by",
+            "domain:hh.kz",
+            "domain:rabota.by",
+            "domain:algoritmika.org",
+            "domain:skillbox.pro",
+            "domain:umschool.net",
+            "domain:carrotquest.app",
+            "domain:carrotquest.io",
+            "domain:dashly.app",
+            "domain:dashly.help",
+            "domain:dashly.io",
+            "domain:whoosh.bike",
+            "domain:2gis.ae",
+            "domain:2gis.am",
+            "domain:2gis.az",
+            "domain:2gis.by",
+            "domain:2gis.com",
+            "domain:2gis.com.cy",
+            "domain:2gis.cz",
+            "domain:2gis.ge",
+            "domain:2gis.kg",
+            "domain:2gis.kz",
+            "domain:2gis.tj",
+            "domain:2gis.ua",
+            "domain:2gis.uz",
+            "domain:bps-sberbank.by",
+            "domain:sber-bank.by",
+            "domain:sberbank.com",
+            "domain:neon.click",
+            "domain:megamarket.tech",
+            "domain:sberauto.com",
+            "domain:sbercloud.tech",
+            "domain:cloudru.cn",
+            "domain:eaptechka.online",
+            "domain:giga.chat",
+            "domain:jivo.chat",
+            "domain:jivochat.com",
+            "domain:sber.pro",
+            "domain:spasibo.digital",
+            "domain:spasibo.market",
+            "domain:accesspoint.uz",
+            "domain:getsynapse.io",
+            "domain:zvuk-b2b.com",
+            "domain:zvuk.com",
+            "domain:koshelek.app",
+            "domain:rosbank-credit.com",
+            "domain:t-bank.by",
+            "domain:t-finance.group",
+            "domain:t-tech.dev",
+            "domain:t-tech.team",
+            "domain:t.finance",
+            "domain:tbank-online.com",
+            "domain:tdev.by",
+            "domain:tinkoff-group.com",
+            "domain:tinkoff.ai",
+            "domain:tinkoffmobile.com",
+            "domain:unidraw.io",
+            "domain:prodcontest.com",
+            "domain:alfabank.st",
+            "domain:gazprombank.com",
+            "domain:gazprombank.investments",
+            "domain:dbo-dengi.online",
+            "domain:tochka-tech.com",
+            "domain:tochka.com",
+            "domain:moex.com",
+            "domain:sistema-capital.com",
+            "domain:netmonet.co",
+            "domain:tips.tips",
+            "domain:megafon.com",
+            "domain:ngenix.net",
+            "domain:t1.cloud",
+            "domain:taxsee.com",
+            "regexp:.*\\.ru$",
+            "regexp:.*\\.su$",
+            "regexp:.*\\.xn--p1ai$"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "network": "tcp,udp",
+          "type": "field",
+          "balancerTag": "balancer"
+        }
+      ],
+      "balancers": [
+        {
+          "tag": "balancer",
+          "selector": [
+            "ru-best_eu-"
+          ],
+          "fallbackTag": "ru-best_eu-1",
+          "strategy": {
+            "type": "leastPing"
+          }
+        }
+      ]
+    },
+    "stats": {},
+    "burstObservatory": {
+      "subjectSelector": [
+        "ru-best_eu-"
+      ],
+      "pingConfig": {
+        "connectivity": "",
+        "destination": "https://www.google.com/generate_204",
+        "httpMethod": "HEAD",
+        "interval": "1m",
+        "sampling": 2,
+        "timeout": "5s"
+      }
+    }
+  },
+  {
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "tag": "ru-germany-1",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "13.143.137.161",
+          "encryption": "none",
+          "id": "e7fbc076-6940-006e-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-germany-2",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "209.182.100.218",
+          "encryption": "none",
+          "id": "e7fbc076-6940-006e-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-germany-3",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "209.182.100.215",
+          "encryption": "none",
+          "id": "e7fbc076-6940-006e-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-germany-4",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "166.1.161.217",
+          "encryption": "none",
+          "id": "e7fbc076-6940-006e-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-germany-5",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "13.143.137.100",
+          "encryption": "none",
+          "id": "e7fbc076-6940-006e-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-germany-6",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "92.53.119.73",
+          "encryption": "none",
+          "id": "e7fbc076-6940-006e-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-germany-7",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "217.25.93.215",
+          "encryption": "none",
+          "id": "e7fbc076-6940-006e-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "AsIs",
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": "\ud83c\udde9\ud83c\uddea \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f \u00b7 TCP",
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "domain:sub.suponap.com",
+            "domain:yandex.ru",
+            "domain:ya.ru",
+            "domain:yandex.net",
+            "domain:yastatic.net",
+            "domain:vk.com",
+            "domain:vk.ru",
+            "domain:userapi.com",
+            "domain:mail.ru",
+            "domain:ozon.ru",
+            "domain:ozone.ru",
+            "domain:o3.ru",
+            "domain:wildberries.ru",
+            "domain:wb.ru",
+            "domain:wbbasket.ru",
+            "domain:gosuslugi.ru",
+            "domain:max.ru",
+            "domain:oneme.ru",
+            "domain:api.oneme.ru",
+            "domain:api2.oneme.ru",
+            "domain:ws-api.oneme.ru",
+            "domain:platform-api2.max.ru",
+            "domain:okcdn.ru",
+            "domain:calls.okcdn.ru",
+            "domain:iv.okcdn.ru",
+            "domain:im.vk.me",
+            "domain:static.vk.me",
+            "domain:2ip.ru",
+            "domain:ok.me",
+            "domain:mvk.com",
+            "domain:vk.cc",
+            "domain:vk.design",
+            "domain:vk.link",
+            "domain:vkontakte.com",
+            "domain:cdn-vk.net",
+            "domain:vk-cdn.me",
+            "domain:vk-cdn.net",
+            "domain:vk-portal.net",
+            "domain:vkcache.com",
+            "domain:vkcdnservice.com",
+            "domain:vkuser.net",
+            "domain:vkuseraudio.com",
+            "domain:vkuseraudio.net",
+            "domain:vkuserlive.com",
+            "domain:vkuserlive.net",
+            "domain:vkuservideo.com",
+            "domain:vkuservideo.net",
+            "domain:vk.me",
+            "domain:vkmessenger.app",
+            "domain:vkmessenger.com",
+            "domain:vkpay.com",
+            "domain:vkpay.io",
+            "domain:armgs.team",
+            "domain:boosty.to",
+            "domain:donationalerts.com",
+            "domain:lovina.app",
+            "domain:memealerts.com",
+            "domain:movika.com",
+            "domain:tamtam.chat",
+            "domain:vk-apps.com",
+            "domain:vk.company",
+            "domain:vk.team",
+            "domain:vkclips.app",
+            "domain:vkcs.cloud",
+            "domain:vkgo.app",
+            "domain:vklive.app",
+            "domain:yclients.com",
+            "domain:myadx.net",
+            "domain:mytrk.link",
+            "domain:attachmy.com",
+            "domain:bizmrg.com",
+            "domain:datacloudmy.com",
+            "domain:mpgw-my.com",
+            "domain:mradx.net",
+            "domain:mycdn.me",
+            "domain:mytopf.com",
+            "domain:smailru.net",
+            "domain:staticmy.com",
+            "domain:vmailru.net",
+            "domain:dev-my.com",
+            "domain:my.com",
+            "domain:dev-my.games",
+            "domain:it-territory.com",
+            "domain:knightspeak.com",
+            "domain:my.games",
+            "domain:pixonic.com",
+            "domain:prod-my.games",
+            "domain:tarantool.io",
+            "domain:dahlmessenger.com",
+            "domain:telega.info",
+            "domain:telega.me",
+            "domain:viqeo.tv",
+            "domain:viqeotv.com",
+            "domain:vkplay.live",
+            "domain:youla.io",
+            "domain:meteum.ai",
+            "domain:shedevrum.ai",
+            "domain:sourcecraft.dev",
+            "domain:turbopages.org",
+            "domain:ya.cc",
+            "domain:yandex-bank.net",
+            "domain:yandex.aero",
+            "domain:yandex.asia",
+            "domain:yandex.az",
+            "domain:yandex.by",
+            "domain:yandex.cloud",
+            "domain:yandex.co.il",
+            "domain:yandex.com",
+            "domain:yandex.com.am",
+            "domain:yandex.com.ge",
+            "domain:yandex.com.tr",
+            "domain:yandex.com.ua",
+            "domain:yandex.de",
+            "domain:yandex.ee",
+            "domain:yandex.eu",
+            "domain:yandex.fi",
+            "domain:yandex.fr",
+            "domain:yandex.jobs",
+            "domain:yandex.kg",
+            "domain:yandex.kz",
+            "domain:yandex.lt",
+            "domain:yandex.lv",
+            "domain:yandex.md",
+            "domain:yandex.mobi",
+            "domain:yandex.org",
+            "domain:yandex.pl",
+            "domain:yandex.st",
+            "domain:yandex.sx",
+            "domain:yandex.tj",
+            "domain:yandex.tm",
+            "domain:yandex.tr",
+            "domain:yandex.ua",
+            "domain:yandex.uz",
+            "domain:yandexadexchange.net",
+            "domain:yandexcloud.net",
+            "domain:yandexcom.net",
+            "domain:yandexgo.com",
+            "domain:yandexwebcache.net",
+            "domain:yandexwebcache.org",
+            "domain:yango-b2b.com",
+            "domain:yango-team.com",
+            "domain:yango-tech.com",
+            "domain:yango.africa",
+            "domain:yango.ao",
+            "domain:yango.bh",
+            "domain:yango.co.il",
+            "domain:yango.com",
+            "domain:yango.fi",
+            "domain:yango.qa",
+            "domain:yango.taxi",
+            "domain:yango.tech",
+            "domain:yangofellowship.com",
+            "domain:yastat.net",
+            "domain:ads.yandex",
+            "domain:webvisor.com",
+            "domain:webvisor.org",
+            "domain:yads.tech",
+            "domain:yango-ads.com",
+            "domain:ozon.by",
+            "domain:ozon.com",
+            "domain:ozon.com.by",
+            "domain:ozon.com.kz",
+            "domain:ozon.dev",
+            "domain:ozon.express",
+            "domain:ozon.kz",
+            "domain:ozon.li",
+            "domain:ozon.tech",
+            "domain:ozon.tm",
+            "domain:ozon.travel",
+            "domain:ozoncamp.pro",
+            "domain:ozoncom.by",
+            "domain:ozonglobalevents.com",
+            "domain:ozonpartners.by",
+            "domain:ozonrocet.by",
+            "domain:ozonroket.by",
+            "domain:ozonru.co.il",
+            "domain:ozonru.com",
+            "domain:ozonru.eu",
+            "domain:ozonru.me",
+            "domain:ozonusercontent.com",
+            "domain:rocketozon.by",
+            "domain:paywb.com",
+            "domain:rwbautomation.tech",
+            "domain:warehouse.domains",
+            "domain:wb.am",
+            "domain:wb.kg",
+            "domain:wb.kz",
+            "domain:wbautomation.tech",
+            "domain:wbr.by",
+            "domain:wbstatic.net",
+            "domain:wbwh.tech",
+            "domain:wibes.com",
+            "domain:wildberries.am",
+            "domain:wildberries.by",
+            "domain:wildberries.co.il",
+            "domain:wildberries.es",
+            "domain:wildberries.eu",
+            "domain:wildberries.ge",
+            "domain:wildberries.kg",
+            "domain:wildberries.kz",
+            "domain:wildberries.lt",
+            "domain:wildberries.tj",
+            "domain:wildberries.tm",
+            "domain:wildberries.uz",
+            "domain:cdnvideohub.com",
+            "domain:trbcdn.net",
+            "domain:kinorium.com",
+            "domain:kinopoisk-ru.clstorage.net",
+            "domain:okko.sport",
+            "domain:okko.tv",
+            "domain:restream-media.net",
+            "domain:24h.tv",
+            "domain:beeline.tv",
+            "domain:premier.one",
+            "domain:smotreshka.tv",
+            "domain:emias.info",
+            "domain:medsi.com",
+            "domain:dodois.com",
+            "domain:dodois.io",
+            "domain:dodopizza.com",
+            "domain:dodostatic.net",
+            "domain:evrasia.rest",
+            "domain:fix-price.com",
+            "domain:lenta.com",
+            "domain:lenta.tech",
+            "domain:5post.market",
+            "domain:chizhik.club",
+            "domain:okolo.app",
+            "domain:perekrestok.com",
+            "domain:x5.ai",
+            "domain:x5.com",
+            "domain:x5.digital",
+            "domain:x5.group",
+            "domain:x5.media",
+            "domain:x5.team",
+            "domain:x5.tech",
+            "domain:x5static.net",
+            "domain:aviasales.com",
+            "domain:mosmetro.tech",
+            "domain:hh.by",
+            "domain:hh.kz",
+            "domain:rabota.by",
+            "domain:algoritmika.org",
+            "domain:skillbox.pro",
+            "domain:umschool.net",
+            "domain:carrotquest.app",
+            "domain:carrotquest.io",
+            "domain:dashly.app",
+            "domain:dashly.help",
+            "domain:dashly.io",
+            "domain:whoosh.bike",
+            "domain:2gis.ae",
+            "domain:2gis.am",
+            "domain:2gis.az",
+            "domain:2gis.by",
+            "domain:2gis.com",
+            "domain:2gis.com.cy",
+            "domain:2gis.cz",
+            "domain:2gis.ge",
+            "domain:2gis.kg",
+            "domain:2gis.kz",
+            "domain:2gis.tj",
+            "domain:2gis.ua",
+            "domain:2gis.uz",
+            "domain:bps-sberbank.by",
+            "domain:sber-bank.by",
+            "domain:sberbank.com",
+            "domain:neon.click",
+            "domain:megamarket.tech",
+            "domain:sberauto.com",
+            "domain:sbercloud.tech",
+            "domain:cloudru.cn",
+            "domain:eaptechka.online",
+            "domain:giga.chat",
+            "domain:jivo.chat",
+            "domain:jivochat.com",
+            "domain:sber.pro",
+            "domain:spasibo.digital",
+            "domain:spasibo.market",
+            "domain:accesspoint.uz",
+            "domain:getsynapse.io",
+            "domain:zvuk-b2b.com",
+            "domain:zvuk.com",
+            "domain:koshelek.app",
+            "domain:rosbank-credit.com",
+            "domain:t-bank.by",
+            "domain:t-finance.group",
+            "domain:t-tech.dev",
+            "domain:t-tech.team",
+            "domain:t.finance",
+            "domain:tbank-online.com",
+            "domain:tdev.by",
+            "domain:tinkoff-group.com",
+            "domain:tinkoff.ai",
+            "domain:tinkoffmobile.com",
+            "domain:unidraw.io",
+            "domain:prodcontest.com",
+            "domain:alfabank.st",
+            "domain:gazprombank.com",
+            "domain:gazprombank.investments",
+            "domain:dbo-dengi.online",
+            "domain:tochka-tech.com",
+            "domain:tochka.com",
+            "domain:moex.com",
+            "domain:sistema-capital.com",
+            "domain:netmonet.co",
+            "domain:tips.tips",
+            "domain:megafon.com",
+            "domain:ngenix.net",
+            "domain:t1.cloud",
+            "domain:taxsee.com",
+            "regexp:.*\\.ru$",
+            "regexp:.*\\.su$",
+            "regexp:.*\\.xn--p1ai$"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "network": "tcp,udp",
+          "type": "field",
+          "balancerTag": "balancer"
+        }
+      ],
+      "balancers": [
+        {
+          "tag": "balancer",
+          "selector": [
+            "ru-germany-"
+          ],
+          "fallbackTag": "ru-germany-1",
+          "strategy": {
+            "type": "leastPing"
+          }
+        }
+      ]
+    },
+    "stats": {},
+    "burstObservatory": {
+      "subjectSelector": [
+        "ru-germany-"
+      ],
+      "pingConfig": {
+        "connectivity": "",
+        "destination": "https://www.google.com/generate_204",
+        "httpMethod": "HEAD",
+        "interval": "1m",
+        "sampling": 2,
+        "timeout": "5s"
+      }
+    }
+  },
+  {
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "tag": "ru-netherlands-1",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "209.182.100.217",
+          "encryption": "none",
+          "id": "e7fbc076-6940-0082-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-netherlands-2",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "13.143.137.161",
+          "encryption": "none",
+          "id": "e7fbc076-6940-0082-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-netherlands-3",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "209.182.100.215",
+          "encryption": "none",
+          "id": "e7fbc076-6940-0082-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-netherlands-4",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "188.225.27.178",
+          "encryption": "none",
+          "id": "e7fbc076-6940-0082-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-netherlands-5",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "13.143.137.100",
+          "encryption": "none",
+          "id": "e7fbc076-6940-0082-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-netherlands-6",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "166.1.161.217",
+          "encryption": "none",
+          "id": "e7fbc076-6940-0082-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-netherlands-7",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "92.53.119.73",
+          "encryption": "none",
+          "id": "e7fbc076-6940-0082-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "AsIs",
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": "\ud83c\uddf3\ud83c\uddf1 \u0410\u043c\u0441\u0442\u0435\u0440\u0434\u0430\u043c \u00b7 TCP",
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "domain:sub.suponap.com",
+            "domain:yandex.ru",
+            "domain:ya.ru",
+            "domain:yandex.net",
+            "domain:yastatic.net",
+            "domain:vk.com",
+            "domain:vk.ru",
+            "domain:userapi.com",
+            "domain:mail.ru",
+            "domain:ozon.ru",
+            "domain:ozone.ru",
+            "domain:o3.ru",
+            "domain:wildberries.ru",
+            "domain:wb.ru",
+            "domain:wbbasket.ru",
+            "domain:gosuslugi.ru",
+            "domain:max.ru",
+            "domain:oneme.ru",
+            "domain:api.oneme.ru",
+            "domain:api2.oneme.ru",
+            "domain:ws-api.oneme.ru",
+            "domain:platform-api2.max.ru",
+            "domain:okcdn.ru",
+            "domain:calls.okcdn.ru",
+            "domain:iv.okcdn.ru",
+            "domain:im.vk.me",
+            "domain:static.vk.me",
+            "domain:2ip.ru",
+            "domain:ok.me",
+            "domain:mvk.com",
+            "domain:vk.cc",
+            "domain:vk.design",
+            "domain:vk.link",
+            "domain:vkontakte.com",
+            "domain:cdn-vk.net",
+            "domain:vk-cdn.me",
+            "domain:vk-cdn.net",
+            "domain:vk-portal.net",
+            "domain:vkcache.com",
+            "domain:vkcdnservice.com",
+            "domain:vkuser.net",
+            "domain:vkuseraudio.com",
+            "domain:vkuseraudio.net",
+            "domain:vkuserlive.com",
+            "domain:vkuserlive.net",
+            "domain:vkuservideo.com",
+            "domain:vkuservideo.net",
+            "domain:vk.me",
+            "domain:vkmessenger.app",
+            "domain:vkmessenger.com",
+            "domain:vkpay.com",
+            "domain:vkpay.io",
+            "domain:armgs.team",
+            "domain:boosty.to",
+            "domain:donationalerts.com",
+            "domain:lovina.app",
+            "domain:memealerts.com",
+            "domain:movika.com",
+            "domain:tamtam.chat",
+            "domain:vk-apps.com",
+            "domain:vk.company",
+            "domain:vk.team",
+            "domain:vkclips.app",
+            "domain:vkcs.cloud",
+            "domain:vkgo.app",
+            "domain:vklive.app",
+            "domain:yclients.com",
+            "domain:myadx.net",
+            "domain:mytrk.link",
+            "domain:attachmy.com",
+            "domain:bizmrg.com",
+            "domain:datacloudmy.com",
+            "domain:mpgw-my.com",
+            "domain:mradx.net",
+            "domain:mycdn.me",
+            "domain:mytopf.com",
+            "domain:smailru.net",
+            "domain:staticmy.com",
+            "domain:vmailru.net",
+            "domain:dev-my.com",
+            "domain:my.com",
+            "domain:dev-my.games",
+            "domain:it-territory.com",
+            "domain:knightspeak.com",
+            "domain:my.games",
+            "domain:pixonic.com",
+            "domain:prod-my.games",
+            "domain:tarantool.io",
+            "domain:dahlmessenger.com",
+            "domain:telega.info",
+            "domain:telega.me",
+            "domain:viqeo.tv",
+            "domain:viqeotv.com",
+            "domain:vkplay.live",
+            "domain:youla.io",
+            "domain:meteum.ai",
+            "domain:shedevrum.ai",
+            "domain:sourcecraft.dev",
+            "domain:turbopages.org",
+            "domain:ya.cc",
+            "domain:yandex-bank.net",
+            "domain:yandex.aero",
+            "domain:yandex.asia",
+            "domain:yandex.az",
+            "domain:yandex.by",
+            "domain:yandex.cloud",
+            "domain:yandex.co.il",
+            "domain:yandex.com",
+            "domain:yandex.com.am",
+            "domain:yandex.com.ge",
+            "domain:yandex.com.tr",
+            "domain:yandex.com.ua",
+            "domain:yandex.de",
+            "domain:yandex.ee",
+            "domain:yandex.eu",
+            "domain:yandex.fi",
+            "domain:yandex.fr",
+            "domain:yandex.jobs",
+            "domain:yandex.kg",
+            "domain:yandex.kz",
+            "domain:yandex.lt",
+            "domain:yandex.lv",
+            "domain:yandex.md",
+            "domain:yandex.mobi",
+            "domain:yandex.org",
+            "domain:yandex.pl",
+            "domain:yandex.st",
+            "domain:yandex.sx",
+            "domain:yandex.tj",
+            "domain:yandex.tm",
+            "domain:yandex.tr",
+            "domain:yandex.ua",
+            "domain:yandex.uz",
+            "domain:yandexadexchange.net",
+            "domain:yandexcloud.net",
+            "domain:yandexcom.net",
+            "domain:yandexgo.com",
+            "domain:yandexwebcache.net",
+            "domain:yandexwebcache.org",
+            "domain:yango-b2b.com",
+            "domain:yango-team.com",
+            "domain:yango-tech.com",
+            "domain:yango.africa",
+            "domain:yango.ao",
+            "domain:yango.bh",
+            "domain:yango.co.il",
+            "domain:yango.com",
+            "domain:yango.fi",
+            "domain:yango.qa",
+            "domain:yango.taxi",
+            "domain:yango.tech",
+            "domain:yangofellowship.com",
+            "domain:yastat.net",
+            "domain:ads.yandex",
+            "domain:webvisor.com",
+            "domain:webvisor.org",
+            "domain:yads.tech",
+            "domain:yango-ads.com",
+            "domain:ozon.by",
+            "domain:ozon.com",
+            "domain:ozon.com.by",
+            "domain:ozon.com.kz",
+            "domain:ozon.dev",
+            "domain:ozon.express",
+            "domain:ozon.kz",
+            "domain:ozon.li",
+            "domain:ozon.tech",
+            "domain:ozon.tm",
+            "domain:ozon.travel",
+            "domain:ozoncamp.pro",
+            "domain:ozoncom.by",
+            "domain:ozonglobalevents.com",
+            "domain:ozonpartners.by",
+            "domain:ozonrocet.by",
+            "domain:ozonroket.by",
+            "domain:ozonru.co.il",
+            "domain:ozonru.com",
+            "domain:ozonru.eu",
+            "domain:ozonru.me",
+            "domain:ozonusercontent.com",
+            "domain:rocketozon.by",
+            "domain:paywb.com",
+            "domain:rwbautomation.tech",
+            "domain:warehouse.domains",
+            "domain:wb.am",
+            "domain:wb.kg",
+            "domain:wb.kz",
+            "domain:wbautomation.tech",
+            "domain:wbr.by",
+            "domain:wbstatic.net",
+            "domain:wbwh.tech",
+            "domain:wibes.com",
+            "domain:wildberries.am",
+            "domain:wildberries.by",
+            "domain:wildberries.co.il",
+            "domain:wildberries.es",
+            "domain:wildberries.eu",
+            "domain:wildberries.ge",
+            "domain:wildberries.kg",
+            "domain:wildberries.kz",
+            "domain:wildberries.lt",
+            "domain:wildberries.tj",
+            "domain:wildberries.tm",
+            "domain:wildberries.uz",
+            "domain:cdnvideohub.com",
+            "domain:trbcdn.net",
+            "domain:kinorium.com",
+            "domain:kinopoisk-ru.clstorage.net",
+            "domain:okko.sport",
+            "domain:okko.tv",
+            "domain:restream-media.net",
+            "domain:24h.tv",
+            "domain:beeline.tv",
+            "domain:premier.one",
+            "domain:smotreshka.tv",
+            "domain:emias.info",
+            "domain:medsi.com",
+            "domain:dodois.com",
+            "domain:dodois.io",
+            "domain:dodopizza.com",
+            "domain:dodostatic.net",
+            "domain:evrasia.rest",
+            "domain:fix-price.com",
+            "domain:lenta.com",
+            "domain:lenta.tech",
+            "domain:5post.market",
+            "domain:chizhik.club",
+            "domain:okolo.app",
+            "domain:perekrestok.com",
+            "domain:x5.ai",
+            "domain:x5.com",
+            "domain:x5.digital",
+            "domain:x5.group",
+            "domain:x5.media",
+            "domain:x5.team",
+            "domain:x5.tech",
+            "domain:x5static.net",
+            "domain:aviasales.com",
+            "domain:mosmetro.tech",
+            "domain:hh.by",
+            "domain:hh.kz",
+            "domain:rabota.by",
+            "domain:algoritmika.org",
+            "domain:skillbox.pro",
+            "domain:umschool.net",
+            "domain:carrotquest.app",
+            "domain:carrotquest.io",
+            "domain:dashly.app",
+            "domain:dashly.help",
+            "domain:dashly.io",
+            "domain:whoosh.bike",
+            "domain:2gis.ae",
+            "domain:2gis.am",
+            "domain:2gis.az",
+            "domain:2gis.by",
+            "domain:2gis.com",
+            "domain:2gis.com.cy",
+            "domain:2gis.cz",
+            "domain:2gis.ge",
+            "domain:2gis.kg",
+            "domain:2gis.kz",
+            "domain:2gis.tj",
+            "domain:2gis.ua",
+            "domain:2gis.uz",
+            "domain:bps-sberbank.by",
+            "domain:sber-bank.by",
+            "domain:sberbank.com",
+            "domain:neon.click",
+            "domain:megamarket.tech",
+            "domain:sberauto.com",
+            "domain:sbercloud.tech",
+            "domain:cloudru.cn",
+            "domain:eaptechka.online",
+            "domain:giga.chat",
+            "domain:jivo.chat",
+            "domain:jivochat.com",
+            "domain:sber.pro",
+            "domain:spasibo.digital",
+            "domain:spasibo.market",
+            "domain:accesspoint.uz",
+            "domain:getsynapse.io",
+            "domain:zvuk-b2b.com",
+            "domain:zvuk.com",
+            "domain:koshelek.app",
+            "domain:rosbank-credit.com",
+            "domain:t-bank.by",
+            "domain:t-finance.group",
+            "domain:t-tech.dev",
+            "domain:t-tech.team",
+            "domain:t.finance",
+            "domain:tbank-online.com",
+            "domain:tdev.by",
+            "domain:tinkoff-group.com",
+            "domain:tinkoff.ai",
+            "domain:tinkoffmobile.com",
+            "domain:unidraw.io",
+            "domain:prodcontest.com",
+            "domain:alfabank.st",
+            "domain:gazprombank.com",
+            "domain:gazprombank.investments",
+            "domain:dbo-dengi.online",
+            "domain:tochka-tech.com",
+            "domain:tochka.com",
+            "domain:moex.com",
+            "domain:sistema-capital.com",
+            "domain:netmonet.co",
+            "domain:tips.tips",
+            "domain:megafon.com",
+            "domain:ngenix.net",
+            "domain:t1.cloud",
+            "domain:taxsee.com",
+            "regexp:.*\\.ru$",
+            "regexp:.*\\.su$",
+            "regexp:.*\\.xn--p1ai$"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "network": "tcp,udp",
+          "type": "field",
+          "balancerTag": "balancer"
+        }
+      ],
+      "balancers": [
+        {
+          "tag": "balancer",
+          "selector": [
+            "ru-netherlands-"
+          ],
+          "fallbackTag": "ru-netherlands-1",
+          "strategy": {
+            "type": "leastPing"
+          }
+        }
+      ]
+    },
+    "stats": {},
+    "burstObservatory": {
+      "subjectSelector": [
+        "ru-netherlands-"
+      ],
+      "pingConfig": {
+        "connectivity": "",
+        "destination": "https://www.google.com/generate_204",
+        "httpMethod": "HEAD",
+        "interval": "1m",
+        "sampling": 2,
+        "timeout": "5s"
+      }
+    }
+  },
+  {
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "tag": "ru-sweden-1",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "209.182.100.218",
+          "encryption": "none",
+          "id": "e7fbc076-6940-0096-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-sweden-2",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "209.182.100.215",
+          "encryption": "none",
+          "id": "e7fbc076-6940-0096-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-sweden-3",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "13.143.137.161",
+          "encryption": "none",
+          "id": "e7fbc076-6940-0096-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-sweden-4",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "92.53.119.73",
+          "encryption": "none",
+          "id": "e7fbc076-6940-0096-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-sweden-5",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "13.143.137.100",
+          "encryption": "none",
+          "id": "e7fbc076-6940-0096-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-sweden-6",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "188.225.27.178",
+          "encryption": "none",
+          "id": "e7fbc076-6940-0096-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-sweden-7",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "166.1.161.217",
+          "encryption": "none",
+          "id": "e7fbc076-6940-0096-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "AsIs",
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": "\ud83c\uddf8\ud83c\uddea \u0428\u0432\u0435\u0446\u0438\u044f \u00b7 TCP",
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "domain:sub.suponap.com",
+            "domain:yandex.ru",
+            "domain:ya.ru",
+            "domain:yandex.net",
+            "domain:yastatic.net",
+            "domain:vk.com",
+            "domain:vk.ru",
+            "domain:userapi.com",
+            "domain:mail.ru",
+            "domain:ozon.ru",
+            "domain:ozone.ru",
+            "domain:o3.ru",
+            "domain:wildberries.ru",
+            "domain:wb.ru",
+            "domain:wbbasket.ru",
+            "domain:gosuslugi.ru",
+            "domain:max.ru",
+            "domain:oneme.ru",
+            "domain:api.oneme.ru",
+            "domain:api2.oneme.ru",
+            "domain:ws-api.oneme.ru",
+            "domain:platform-api2.max.ru",
+            "domain:okcdn.ru",
+            "domain:calls.okcdn.ru",
+            "domain:iv.okcdn.ru",
+            "domain:im.vk.me",
+            "domain:static.vk.me",
+            "domain:2ip.ru",
+            "domain:ok.me",
+            "domain:mvk.com",
+            "domain:vk.cc",
+            "domain:vk.design",
+            "domain:vk.link",
+            "domain:vkontakte.com",
+            "domain:cdn-vk.net",
+            "domain:vk-cdn.me",
+            "domain:vk-cdn.net",
+            "domain:vk-portal.net",
+            "domain:vkcache.com",
+            "domain:vkcdnservice.com",
+            "domain:vkuser.net",
+            "domain:vkuseraudio.com",
+            "domain:vkuseraudio.net",
+            "domain:vkuserlive.com",
+            "domain:vkuserlive.net",
+            "domain:vkuservideo.com",
+            "domain:vkuservideo.net",
+            "domain:vk.me",
+            "domain:vkmessenger.app",
+            "domain:vkmessenger.com",
+            "domain:vkpay.com",
+            "domain:vkpay.io",
+            "domain:armgs.team",
+            "domain:boosty.to",
+            "domain:donationalerts.com",
+            "domain:lovina.app",
+            "domain:memealerts.com",
+            "domain:movika.com",
+            "domain:tamtam.chat",
+            "domain:vk-apps.com",
+            "domain:vk.company",
+            "domain:vk.team",
+            "domain:vkclips.app",
+            "domain:vkcs.cloud",
+            "domain:vkgo.app",
+            "domain:vklive.app",
+            "domain:yclients.com",
+            "domain:myadx.net",
+            "domain:mytrk.link",
+            "domain:attachmy.com",
+            "domain:bizmrg.com",
+            "domain:datacloudmy.com",
+            "domain:mpgw-my.com",
+            "domain:mradx.net",
+            "domain:mycdn.me",
+            "domain:mytopf.com",
+            "domain:smailru.net",
+            "domain:staticmy.com",
+            "domain:vmailru.net",
+            "domain:dev-my.com",
+            "domain:my.com",
+            "domain:dev-my.games",
+            "domain:it-territory.com",
+            "domain:knightspeak.com",
+            "domain:my.games",
+            "domain:pixonic.com",
+            "domain:prod-my.games",
+            "domain:tarantool.io",
+            "domain:dahlmessenger.com",
+            "domain:telega.info",
+            "domain:telega.me",
+            "domain:viqeo.tv",
+            "domain:viqeotv.com",
+            "domain:vkplay.live",
+            "domain:youla.io",
+            "domain:meteum.ai",
+            "domain:shedevrum.ai",
+            "domain:sourcecraft.dev",
+            "domain:turbopages.org",
+            "domain:ya.cc",
+            "domain:yandex-bank.net",
+            "domain:yandex.aero",
+            "domain:yandex.asia",
+            "domain:yandex.az",
+            "domain:yandex.by",
+            "domain:yandex.cloud",
+            "domain:yandex.co.il",
+            "domain:yandex.com",
+            "domain:yandex.com.am",
+            "domain:yandex.com.ge",
+            "domain:yandex.com.tr",
+            "domain:yandex.com.ua",
+            "domain:yandex.de",
+            "domain:yandex.ee",
+            "domain:yandex.eu",
+            "domain:yandex.fi",
+            "domain:yandex.fr",
+            "domain:yandex.jobs",
+            "domain:yandex.kg",
+            "domain:yandex.kz",
+            "domain:yandex.lt",
+            "domain:yandex.lv",
+            "domain:yandex.md",
+            "domain:yandex.mobi",
+            "domain:yandex.org",
+            "domain:yandex.pl",
+            "domain:yandex.st",
+            "domain:yandex.sx",
+            "domain:yandex.tj",
+            "domain:yandex.tm",
+            "domain:yandex.tr",
+            "domain:yandex.ua",
+            "domain:yandex.uz",
+            "domain:yandexadexchange.net",
+            "domain:yandexcloud.net",
+            "domain:yandexcom.net",
+            "domain:yandexgo.com",
+            "domain:yandexwebcache.net",
+            "domain:yandexwebcache.org",
+            "domain:yango-b2b.com",
+            "domain:yango-team.com",
+            "domain:yango-tech.com",
+            "domain:yango.africa",
+            "domain:yango.ao",
+            "domain:yango.bh",
+            "domain:yango.co.il",
+            "domain:yango.com",
+            "domain:yango.fi",
+            "domain:yango.qa",
+            "domain:yango.taxi",
+            "domain:yango.tech",
+            "domain:yangofellowship.com",
+            "domain:yastat.net",
+            "domain:ads.yandex",
+            "domain:webvisor.com",
+            "domain:webvisor.org",
+            "domain:yads.tech",
+            "domain:yango-ads.com",
+            "domain:ozon.by",
+            "domain:ozon.com",
+            "domain:ozon.com.by",
+            "domain:ozon.com.kz",
+            "domain:ozon.dev",
+            "domain:ozon.express",
+            "domain:ozon.kz",
+            "domain:ozon.li",
+            "domain:ozon.tech",
+            "domain:ozon.tm",
+            "domain:ozon.travel",
+            "domain:ozoncamp.pro",
+            "domain:ozoncom.by",
+            "domain:ozonglobalevents.com",
+            "domain:ozonpartners.by",
+            "domain:ozonrocet.by",
+            "domain:ozonroket.by",
+            "domain:ozonru.co.il",
+            "domain:ozonru.com",
+            "domain:ozonru.eu",
+            "domain:ozonru.me",
+            "domain:ozonusercontent.com",
+            "domain:rocketozon.by",
+            "domain:paywb.com",
+            "domain:rwbautomation.tech",
+            "domain:warehouse.domains",
+            "domain:wb.am",
+            "domain:wb.kg",
+            "domain:wb.kz",
+            "domain:wbautomation.tech",
+            "domain:wbr.by",
+            "domain:wbstatic.net",
+            "domain:wbwh.tech",
+            "domain:wibes.com",
+            "domain:wildberries.am",
+            "domain:wildberries.by",
+            "domain:wildberries.co.il",
+            "domain:wildberries.es",
+            "domain:wildberries.eu",
+            "domain:wildberries.ge",
+            "domain:wildberries.kg",
+            "domain:wildberries.kz",
+            "domain:wildberries.lt",
+            "domain:wildberries.tj",
+            "domain:wildberries.tm",
+            "domain:wildberries.uz",
+            "domain:cdnvideohub.com",
+            "domain:trbcdn.net",
+            "domain:kinorium.com",
+            "domain:kinopoisk-ru.clstorage.net",
+            "domain:okko.sport",
+            "domain:okko.tv",
+            "domain:restream-media.net",
+            "domain:24h.tv",
+            "domain:beeline.tv",
+            "domain:premier.one",
+            "domain:smotreshka.tv",
+            "domain:emias.info",
+            "domain:medsi.com",
+            "domain:dodois.com",
+            "domain:dodois.io",
+            "domain:dodopizza.com",
+            "domain:dodostatic.net",
+            "domain:evrasia.rest",
+            "domain:fix-price.com",
+            "domain:lenta.com",
+            "domain:lenta.tech",
+            "domain:5post.market",
+            "domain:chizhik.club",
+            "domain:okolo.app",
+            "domain:perekrestok.com",
+            "domain:x5.ai",
+            "domain:x5.com",
+            "domain:x5.digital",
+            "domain:x5.group",
+            "domain:x5.media",
+            "domain:x5.team",
+            "domain:x5.tech",
+            "domain:x5static.net",
+            "domain:aviasales.com",
+            "domain:mosmetro.tech",
+            "domain:hh.by",
+            "domain:hh.kz",
+            "domain:rabota.by",
+            "domain:algoritmika.org",
+            "domain:skillbox.pro",
+            "domain:umschool.net",
+            "domain:carrotquest.app",
+            "domain:carrotquest.io",
+            "domain:dashly.app",
+            "domain:dashly.help",
+            "domain:dashly.io",
+            "domain:whoosh.bike",
+            "domain:2gis.ae",
+            "domain:2gis.am",
+            "domain:2gis.az",
+            "domain:2gis.by",
+            "domain:2gis.com",
+            "domain:2gis.com.cy",
+            "domain:2gis.cz",
+            "domain:2gis.ge",
+            "domain:2gis.kg",
+            "domain:2gis.kz",
+            "domain:2gis.tj",
+            "domain:2gis.ua",
+            "domain:2gis.uz",
+            "domain:bps-sberbank.by",
+            "domain:sber-bank.by",
+            "domain:sberbank.com",
+            "domain:neon.click",
+            "domain:megamarket.tech",
+            "domain:sberauto.com",
+            "domain:sbercloud.tech",
+            "domain:cloudru.cn",
+            "domain:eaptechka.online",
+            "domain:giga.chat",
+            "domain:jivo.chat",
+            "domain:jivochat.com",
+            "domain:sber.pro",
+            "domain:spasibo.digital",
+            "domain:spasibo.market",
+            "domain:accesspoint.uz",
+            "domain:getsynapse.io",
+            "domain:zvuk-b2b.com",
+            "domain:zvuk.com",
+            "domain:koshelek.app",
+            "domain:rosbank-credit.com",
+            "domain:t-bank.by",
+            "domain:t-finance.group",
+            "domain:t-tech.dev",
+            "domain:t-tech.team",
+            "domain:t.finance",
+            "domain:tbank-online.com",
+            "domain:tdev.by",
+            "domain:tinkoff-group.com",
+            "domain:tinkoff.ai",
+            "domain:tinkoffmobile.com",
+            "domain:unidraw.io",
+            "domain:prodcontest.com",
+            "domain:alfabank.st",
+            "domain:gazprombank.com",
+            "domain:gazprombank.investments",
+            "domain:dbo-dengi.online",
+            "domain:tochka-tech.com",
+            "domain:tochka.com",
+            "domain:moex.com",
+            "domain:sistema-capital.com",
+            "domain:netmonet.co",
+            "domain:tips.tips",
+            "domain:megafon.com",
+            "domain:ngenix.net",
+            "domain:t1.cloud",
+            "domain:taxsee.com",
+            "regexp:.*\\.ru$",
+            "regexp:.*\\.su$",
+            "regexp:.*\\.xn--p1ai$"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "network": "tcp,udp",
+          "type": "field",
+          "balancerTag": "balancer"
+        }
+      ],
+      "balancers": [
+        {
+          "tag": "balancer",
+          "selector": [
+            "ru-sweden-"
+          ],
+          "fallbackTag": "ru-sweden-1",
+          "strategy": {
+            "type": "leastPing"
+          }
+        }
+      ]
+    },
+    "stats": {},
+    "burstObservatory": {
+      "subjectSelector": [
+        "ru-sweden-"
+      ],
+      "pingConfig": {
+        "connectivity": "",
+        "destination": "https://www.google.com/generate_204",
+        "httpMethod": "HEAD",
+        "interval": "1m",
+        "sampling": 2,
+        "timeout": "5s"
+      }
+    }
+  },
+  {
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "tag": "ru-us_gemini-1",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "209.182.100.218",
+          "encryption": "none",
+          "id": "e7fbc076-6940-00aa-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-us_gemini-2",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "209.182.100.216",
+          "encryption": "none",
+          "id": "e7fbc076-6940-00aa-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-us_gemini-3",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "92.53.119.73",
+          "encryption": "none",
+          "id": "e7fbc076-6940-00aa-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-us_gemini-4",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "13.143.137.161",
+          "encryption": "none",
+          "id": "e7fbc076-6940-00aa-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-us_gemini-5",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "217.25.93.215",
+          "encryption": "none",
+          "id": "e7fbc076-6940-00aa-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-us_gemini-6",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "188.225.27.178",
+          "encryption": "none",
+          "id": "e7fbc076-6940-00aa-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "vless",
+        "tag": "ru-us_gemini-7",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": null,
+            "publicKey": "7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU",
+            "serverName": "x5club.ru",
+            "shortId": "187eea0acfb7f778",
+            "show": false,
+            "spiderX": "/7725731f009b5f9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "166.1.161.217",
+          "encryption": "none",
+          "id": "e7fbc076-6940-00aa-ad4c-5273e3a0653c",
+          "level": 8,
+          "port": 8443
+        }
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "AsIs",
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": "\ud83c\uddea\ud83c\uddfa Gemini \u00b7 TCP",
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "domain:sub.suponap.com",
+            "domain:yandex.ru",
+            "domain:ya.ru",
+            "domain:yandex.net",
+            "domain:yastatic.net",
+            "domain:vk.com",
+            "domain:vk.ru",
+            "domain:userapi.com",
+            "domain:mail.ru",
+            "domain:ozon.ru",
+            "domain:ozone.ru",
+            "domain:o3.ru",
+            "domain:wildberries.ru",
+            "domain:wb.ru",
+            "domain:wbbasket.ru",
+            "domain:gosuslugi.ru",
+            "domain:max.ru",
+            "domain:oneme.ru",
+            "domain:api.oneme.ru",
+            "domain:api2.oneme.ru",
+            "domain:ws-api.oneme.ru",
+            "domain:platform-api2.max.ru",
+            "domain:okcdn.ru",
+            "domain:calls.okcdn.ru",
+            "domain:iv.okcdn.ru",
+            "domain:im.vk.me",
+            "domain:static.vk.me",
+            "domain:2ip.ru",
+            "domain:ok.me",
+            "domain:mvk.com",
+            "domain:vk.cc",
+            "domain:vk.design",
+            "domain:vk.link",
+            "domain:vkontakte.com",
+            "domain:cdn-vk.net",
+            "domain:vk-cdn.me",
+            "domain:vk-cdn.net",
+            "domain:vk-portal.net",
+            "domain:vkcache.com",
+            "domain:vkcdnservice.com",
+            "domain:vkuser.net",
+            "domain:vkuseraudio.com",
+            "domain:vkuseraudio.net",
+            "domain:vkuserlive.com",
+            "domain:vkuserlive.net",
+            "domain:vkuservideo.com",
+            "domain:vkuservideo.net",
+            "domain:vk.me",
+            "domain:vkmessenger.app",
+            "domain:vkmessenger.com",
+            "domain:vkpay.com",
+            "domain:vkpay.io",
+            "domain:armgs.team",
+            "domain:boosty.to",
+            "domain:donationalerts.com",
+            "domain:lovina.app",
+            "domain:memealerts.com",
+            "domain:movika.com",
+            "domain:tamtam.chat",
+            "domain:vk-apps.com",
+            "domain:vk.company",
+            "domain:vk.team",
+            "domain:vkclips.app",
+            "domain:vkcs.cloud",
+            "domain:vkgo.app",
+            "domain:vklive.app",
+            "domain:yclients.com",
+            "domain:myadx.net",
+            "domain:mytrk.link",
+            "domain:attachmy.com",
+            "domain:bizmrg.com",
+            "domain:datacloudmy.com",
+            "domain:mpgw-my.com",
+            "domain:mradx.net",
+            "domain:mycdn.me",
+            "domain:mytopf.com",
+            "domain:smailru.net",
+            "domain:staticmy.com",
+            "domain:vmailru.net",
+            "domain:dev-my.com",
+            "domain:my.com",
+            "domain:dev-my.games",
+            "domain:it-territory.com",
+            "domain:knightspeak.com",
+            "domain:my.games",
+            "domain:pixonic.com",
+            "domain:prod-my.games",
+            "domain:tarantool.io",
+            "domain:dahlmessenger.com",
+            "domain:telega.info",
+            "domain:telega.me",
+            "domain:viqeo.tv",
+            "domain:viqeotv.com",
+            "domain:vkplay.live",
+            "domain:youla.io",
+            "domain:meteum.ai",
+            "domain:shedevrum.ai",
+            "domain:sourcecraft.dev",
+            "domain:turbopages.org",
+            "domain:ya.cc",
+            "domain:yandex-bank.net",
+            "domain:yandex.aero",
+            "domain:yandex.asia",
+            "domain:yandex.az",
+            "domain:yandex.by",
+            "domain:yandex.cloud",
+            "domain:yandex.co.il",
+            "domain:yandex.com",
+            "domain:yandex.com.am",
+            "domain:yandex.com.ge",
+            "domain:yandex.com.tr",
+            "domain:yandex.com.ua",
+            "domain:yandex.de",
+            "domain:yandex.ee",
+            "domain:yandex.eu",
+            "domain:yandex.fi",
+            "domain:yandex.fr",
+            "domain:yandex.jobs",
+            "domain:yandex.kg",
+            "domain:yandex.kz",
+            "domain:yandex.lt",
+            "domain:yandex.lv",
+            "domain:yandex.md",
+            "domain:yandex.mobi",
+            "domain:yandex.org",
+            "domain:yandex.pl",
+            "domain:yandex.st",
+            "domain:yandex.sx",
+            "domain:yandex.tj",
+            "domain:yandex.tm",
+            "domain:yandex.tr",
+            "domain:yandex.ua",
+            "domain:yandex.uz",
+            "domain:yandexadexchange.net",
+            "domain:yandexcloud.net",
+            "domain:yandexcom.net",
+            "domain:yandexgo.com",
+            "domain:yandexwebcache.net",
+            "domain:yandexwebcache.org",
+            "domain:yango-b2b.com",
+            "domain:yango-team.com",
+            "domain:yango-tech.com",
+            "domain:yango.africa",
+            "domain:yango.ao",
+            "domain:yango.bh",
+            "domain:yango.co.il",
+            "domain:yango.com",
+            "domain:yango.fi",
+            "domain:yango.qa",
+            "domain:yango.taxi",
+            "domain:yango.tech",
+            "domain:yangofellowship.com",
+            "domain:yastat.net",
+            "domain:ads.yandex",
+            "domain:webvisor.com",
+            "domain:webvisor.org",
+            "domain:yads.tech",
+            "domain:yango-ads.com",
+            "domain:ozon.by",
+            "domain:ozon.com",
+            "domain:ozon.com.by",
+            "domain:ozon.com.kz",
+            "domain:ozon.dev",
+            "domain:ozon.express",
+            "domain:ozon.kz",
+            "domain:ozon.li",
+            "domain:ozon.tech",
+            "domain:ozon.tm",
+            "domain:ozon.travel",
+            "domain:ozoncamp.pro",
+            "domain:ozoncom.by",
+            "domain:ozonglobalevents.com",
+            "domain:ozonpartners.by",
+            "domain:ozonrocet.by",
+            "domain:ozonroket.by",
+            "domain:ozonru.co.il",
+            "domain:ozonru.com",
+            "domain:ozonru.eu",
+            "domain:ozonru.me",
+            "domain:ozonusercontent.com",
+            "domain:rocketozon.by",
+            "domain:paywb.com",
+            "domain:rwbautomation.tech",
+            "domain:warehouse.domains",
+            "domain:wb.am",
+            "domain:wb.kg",
+            "domain:wb.kz",
+            "domain:wbautomation.tech",
+            "domain:wbr.by",
+            "domain:wbstatic.net",
+            "domain:wbwh.tech",
+            "domain:wibes.com",
+            "domain:wildberries.am",
+            "domain:wildberries.by",
+            "domain:wildberries.co.il",
+            "domain:wildberries.es",
+            "domain:wildberries.eu",
+            "domain:wildberries.ge",
+            "domain:wildberries.kg",
+            "domain:wildberries.kz",
+            "domain:wildberries.lt",
+            "domain:wildberries.tj",
+            "domain:wildberries.tm",
+            "domain:wildberries.uz",
+            "domain:cdnvideohub.com",
+            "domain:trbcdn.net",
+            "domain:kinorium.com",
+            "domain:kinopoisk-ru.clstorage.net",
+            "domain:okko.sport",
+            "domain:okko.tv",
+            "domain:restream-media.net",
+            "domain:24h.tv",
+            "domain:beeline.tv",
+            "domain:premier.one",
+            "domain:smotreshka.tv",
+            "domain:emias.info",
+            "domain:medsi.com",
+            "domain:dodois.com",
+            "domain:dodois.io",
+            "domain:dodopizza.com",
+            "domain:dodostatic.net",
+            "domain:evrasia.rest",
+            "domain:fix-price.com",
+            "domain:lenta.com",
+            "domain:lenta.tech",
+            "domain:5post.market",
+            "domain:chizhik.club",
+            "domain:okolo.app",
+            "domain:perekrestok.com",
+            "domain:x5.ai",
+            "domain:x5.com",
+            "domain:x5.digital",
+            "domain:x5.group",
+            "domain:x5.media",
+            "domain:x5.team",
+            "domain:x5.tech",
+            "domain:x5static.net",
+            "domain:aviasales.com",
+            "domain:mosmetro.tech",
+            "domain:hh.by",
+            "domain:hh.kz",
+            "domain:rabota.by",
+            "domain:algoritmika.org",
+            "domain:skillbox.pro",
+            "domain:umschool.net",
+            "domain:carrotquest.app",
+            "domain:carrotquest.io",
+            "domain:dashly.app",
+            "domain:dashly.help",
+            "domain:dashly.io",
+            "domain:whoosh.bike",
+            "domain:2gis.ae",
+            "domain:2gis.am",
+            "domain:2gis.az",
+            "domain:2gis.by",
+            "domain:2gis.com",
+            "domain:2gis.com.cy",
+            "domain:2gis.cz",
+            "domain:2gis.ge",
+            "domain:2gis.kg",
+            "domain:2gis.kz",
+            "domain:2gis.tj",
+            "domain:2gis.ua",
+            "domain:2gis.uz",
+            "domain:bps-sberbank.by",
+            "domain:sber-bank.by",
+            "domain:sberbank.com",
+            "domain:neon.click",
+            "domain:megamarket.tech",
+            "domain:sberauto.com",
+            "domain:sbercloud.tech",
+            "domain:cloudru.cn",
+            "domain:eaptechka.online",
+            "domain:giga.chat",
+            "domain:jivo.chat",
+            "domain:jivochat.com",
+            "domain:sber.pro",
+            "domain:spasibo.digital",
+            "domain:spasibo.market",
+            "domain:accesspoint.uz",
+            "domain:getsynapse.io",
+            "domain:zvuk-b2b.com",
+            "domain:zvuk.com",
+            "domain:koshelek.app",
+            "domain:rosbank-credit.com",
+            "domain:t-bank.by",
+            "domain:t-finance.group",
+            "domain:t-tech.dev",
+            "domain:t-tech.team",
+            "domain:t.finance",
+            "domain:tbank-online.com",
+            "domain:tdev.by",
+            "domain:tinkoff-group.com",
+            "domain:tinkoff.ai",
+            "domain:tinkoffmobile.com",
+            "domain:unidraw.io",
+            "domain:prodcontest.com",
+            "domain:alfabank.st",
+            "domain:gazprombank.com",
+            "domain:gazprombank.investments",
+            "domain:dbo-dengi.online",
+            "domain:tochka-tech.com",
+            "domain:tochka.com",
+            "domain:moex.com",
+            "domain:sistema-capital.com",
+            "domain:netmonet.co",
+            "domain:tips.tips",
+            "domain:megafon.com",
+            "domain:ngenix.net",
+            "domain:t1.cloud",
+            "domain:taxsee.com",
+            "regexp:.*\\.ru$",
+            "regexp:.*\\.su$",
+            "regexp:.*\\.xn--p1ai$"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "network": "tcp,udp",
+          "type": "field",
+          "balancerTag": "balancer"
+        }
+      ],
+      "balancers": [
+        {
+          "tag": "balancer",
+          "selector": [
+            "ru-us_gemini-"
+          ],
+          "fallbackTag": "ru-us_gemini-1",
+          "strategy": {
+            "type": "leastPing"
+          }
+        }
+      ]
+    },
+    "stats": {},
+    "burstObservatory": {
+      "subjectSelector": [
+        "ru-us_gemini-"
+      ],
+      "pingConfig": {
+        "connectivity": "",
+        "destination": "https://www.google.com/generate_204",
+        "httpMethod": "HEAD",
+        "interval": "1m",
+        "sampling": 2,
+        "timeout": "5s"
+      }
+    }
+  }
+]
