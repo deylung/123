@@ -1,6 +1,14 @@
 #profile-title: base64:8J+Ht/Cfh7ogdmxlc3Nib3QuY29t
 #profile-update-interval: 1
 
+vless://a1ec0dd5-f691-4569-9d77-bbcbc253229d@dog1296.mynetoff.com:54951?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=ieFKPmij-uYFyiKA8rAiDHn8JozvFIhujhT7NllyTTQ&security=reality&sid=177d&sni=dog1296.mynetoff.com&spx=%2Fea953509bc54cbc&type=tcp#LTE_1
+vless://a1ec0dd5-f691-4569-9d77-bbcbc253229d@dog1296.mynetoff.com:31008?alpn=h2%2Chttp%2F1.1&encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=dog1296.mynetoff.com&type=tcp#LTE_2
+vless://a1ec0dd5-f691-4569-9d77-bbcbc253229d@dog1296.mynetoff.com:18759?alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&fp=firefox&host=&mode=auto&path=%2Fxhttp&security=tls&sni=dog1296.mynetoff.com&type=xhttp&x_padding_bytes=100-1000#LTE_3
+trojan://6xj2ql4qy1ta595m@dog1296.mynetoff.com:37979?fp=firefox&pbk=6Ay3w_FLW2Fj-nVHM65cXbKn4IrudSjRuRDdT0MtAU4&security=reality&sid=241af70b1f&sni=dog1296.mynetoff.com&spx=%2F1d1f62a94d2fe12&type=tcp#LTE_4
+vless://a1ec0dd5-f691-4569-9d77-bbcbc253229d@dog1296.mynetoff.com:27923?authority=&encryption=none&fp=firefox&pbk=9rO-MFw3UA2qbEpYAMSxOjotNKd5fK05SNIfrXp4u1M&security=reality&serviceName=grpc&sid=8d1d3eb13486354b&sni=dog1296.mynetoff.com&spx=%2F87fda966eabed7e&type=grpc#LTE_5
+trojan://6xj2ql4qy1ta595m@dog1296.mynetoff.com:49836?alpn=h2%2Chttp%2F1.1&authority=&fp=firefox&security=tls&serviceName=tgrpc&sni=dog1296.mynetoff.com&type=grpc#LTE_6
+hysteria2://lba3u6516odvtl2d@dog1296.mynetoff.com:25962?alpn=h3&fp=firefox&obfs=salamander&obfs-password=ztxx1abz038ftssq&security=tls&sni=dog1296.mynetoff.com#LTE_7
+
 vless://e7fbc076-6940-48b9-ad4c-5273e3a0653c@209.182.100.216:8443?security=reality&pbk=7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU&fp=firefox&sni=x5club.ru&sid=187eea0acfb7f778&spx=%2F7725731f009b5f9#ru-best_eu-1
 vless://e7fbc076-6940-48b9-ad4c-5273e3a0653c@217.25.93.215:8443?security=reality&pbk=7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU&fp=firefox&sni=x5club.ru&sid=187eea0acfb7f778&spx=%2F7725731f009b5f9#ru-best_eu-2
 vless://e7fbc076-6940-48b9-ad4c-5273e3a0653c@209.182.100.215:8443?security=reality&pbk=7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU&fp=firefox&sni=x5club.ru&sid=187eea0acfb7f778&spx=%2F7725731f009b5f9#ru-best_eu-3
